@@ -17,12 +17,13 @@ Accurate monitoring of aquatic macroinvertebrates is crucial for assessing water
 - **Image Format**: 256x256
 
 ### Class Distribution
-*(Insert histogram of class distribution in the dataset)*
+![Class Distribution](https://github.com/user-attachments/assets/c0374a14-2095-474a-a035-d437c954d421)
 
 The dataset exhibits a **significant class imbalance**. Some classes contain over **3,000 samples**, while others have fewer than **500**. This imbalance presents challenges for the model, as rare classes receive insufficient representation during training. To address this, **stronger augmentation techniques** and **dataset rebalancing** were applied.
 
 ### Class Examples
-*(Insert sample images for each class)*
+![Class Examples](https://github.com/user-attachments/assets/89e038d7-574d-494f-89b7-bbd6c2fd3d57)
+
 
 ## ConvNeXt-Tiny Architecture
 
@@ -74,7 +75,7 @@ Two levels of augmentation were applied:
 ConvNeXt-Tiny demonstrated **the best generalization capability**, but also showed **signs of overfitting** (99.6% accuracy on the training set).
 
 ### Confusion Matrix
-*(Insert confusion matrix for classification error analysis)*
+![Confusion matrix](https://github.com/user-attachments/assets/d80b1456-e296-428a-8c41-f3152b0cd082)
 
 Certain classes proved difficult for accurate classification. The worst-performing classes were those with **high visual similarity** or **low sample availability** in the training dataset. For example:
 
@@ -95,5 +96,5 @@ This project is an academic study and is intended for research purposes.
 
 ### Model Download
 The ConvNeXt-Tiny model is available at:
-[Download model.pt](INSERT_YOUR_LINK_HERE)
+[Download model.pt](https://www.dropbox.com/scl/fi/vjx6fb4x82csebm60etb6/model.pt?rlkey=cgbxn3n8kyiruepkwbw9p1p7j&st=8abbh9r3&dl=0)
 
