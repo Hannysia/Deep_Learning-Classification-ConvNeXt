@@ -72,7 +72,7 @@ Two levels of augmentation were applied:
 | ConvNeXt-Tiny | **83%**           |
 | ResNet18     | 74%               |
 
-ConvNeXt-Tiny demonstrated **the best generalization capability**, but also showed **signs of overfitting** (99.6% accuracy on the training set).
+ConvNeXt-Tiny demonstrated **the best generalization capability**, but also showed **signs of overfitting** (99.6% accuracy on the training set). One of the key reasons for this overfitting is the dataset’s structure—each individual specimen was photographed multiple times (up to 20 images per camera). As a result, the model may have memorized specific visual patterns unique to individual specimens rather than learning generalized features that represent the entire class.
 
 ### Confusion Matrix
 ![Confusion matrix](https://github.com/user-attachments/assets/d80b1456-e296-428a-8c41-f3152b0cd082)
