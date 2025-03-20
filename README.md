@@ -77,12 +77,7 @@ ConvNeXt-Tiny demonstrated **the best generalization capability**, but also show
 ### Confusion Matrix
 ![Confusion matrix](https://github.com/user-attachments/assets/d80b1456-e296-428a-8c41-f3152b0cd082)
 
-Certain classes proved difficult for accurate classification. The worst-performing classes were those with **high visual similarity** or **low sample availability** in the training dataset. For example:
-
-- **Class X and Class Y** share similar textures and sizes, making them hard to differentiate.
-- **Class Z** has a low number of samples in the training set, leading to reduced accuracy.
-
-Applying stronger augmentation for rare classes partially improved recognition, but the issue remains.
+The confusion matrix for ConvNeXt-Tiny revealed strong predictive performance across most classes. However, certain groups remained challenging, likely due to visual similarity between species. Data augmentation and oversampling contributed to improving the model’s accuracy and partially reduced overfitting by enhancing data variability and balancing class distributions.
 
 ## Conclusions
 
